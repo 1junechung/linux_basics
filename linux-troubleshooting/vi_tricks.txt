@@ -1,0 +1,27 @@
+########## VI tricks ###########
+
+### Line
+* end of line : $
+* beginning of line : ^
+* middle of line : 4Fe
+
+### FILE
+* end of file : SHIFT + G 
+* beginning of file : gg
+* middle of file : M 
+
+### SCREEN
+* end of screen : L 
+* middle of screen : M 
+* beginning of screen : H
+
+# Comment out / Comment in 
+ - CTRL + V  ->  Select Scope  ->  SHIFT + I  ->  include # on first line  ->  ESC (and wait)  ->  wq! 
+ - CTRL + V  ->  Select Scope  -> press x  ->  wq! 
+
+# going to line 115
+:115
+
+# moving around
+h j k(up) l = <-  /  down  /  up  / ->   
+
