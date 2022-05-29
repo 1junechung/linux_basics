@@ -53,3 +53,22 @@ echo TBD...
  
 # redirect output 
 - command >file 2&>1 , command &> file 
+
+
+
+### to be documented down (list)
+# - bash scripting
+# - service troubleshooting
+# - travis
+# - linux troubleshooting
+# - ebs volume attach (df, du)
+# - lsof / proc (which environment has the service started?)
+# - scp
+# - input output 1&2 - vim tricks
+# - firewallcmd / iptables
+# - how to cretae services?
+# - init / serviced / systemctl
+# - inode
+# - cron job coding
+# - easy ones
+# - python tricks
