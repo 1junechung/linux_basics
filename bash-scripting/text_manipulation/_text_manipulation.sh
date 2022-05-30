@@ -1,5 +1,5 @@
-##### sort, uniq, tr, wc 
-##### grep, awk, sed
+##### sort, uniq, tr, wc , cut 
+##### grep, awk, sed 
 
 echo SORT and UNIQ and TR and wc ...
 # sort 
@@ -15,6 +15,12 @@ tr -d " " # delete space
 tr -d '\\b' # delete with special characters -> deletes \b !! need single quote
 # tr can only replace same amount of characters
 # tr replace is not that complete... (comparison is by character only , not whole string)
+
+# cut 
+cut -b -c etc
+
+# head and tail 
+head -n 10 && tail -n 8
 
 ######################### sed 
 echo replace word using "/s" substitute sed ....
