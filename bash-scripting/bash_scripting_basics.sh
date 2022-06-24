@@ -28,3 +28,25 @@ elif [[ $vara -eq $varb ]]; then
 elif [[ $vara -lt $varb ]]; then 
     echo X is less than Y  
 fi
+
+# variable "_" OR $_ 
+$_ # variable that outputs the output of the previous command
+echo "helloworld" && echo $_ # -> helloworld, helloworld 
+
+# running scripts
+bash script.sh
+. script.sh
+./script.sh # might need rights
+
+# getting SSL cert via s_client
+openssl s_client -showcerts -servername wdconnect.workday.internal.com -connect wdconnect.workday.internal.com:443
+openssl s_client -showcerts -connect wdconnect.workday.internal.com:443
+openssl s_client -showcerts -connect wdconnect.workday.internal.com:443 < /dev/null | openssl x509 -outform DER > derp.der
+
+# curl 
+curl options 
+-o : write to file 
+-k : insecure ## skip https
+-s : silent mode
+
+
